@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="40">
+ <tileset firstgid="1" source="background.tsx"/>
+ <tileset firstgid="9" source="platformes.tsx"/>
+ <objectgroup id="3" name="Background">
+  <object id="1" gid="8" x="1.33333" y="800" width="796" height="797.333"/>
+ </objectgroup>
+ <objectgroup id="4" name="cloud">
+  <object id="4" gid="1" x="6.66667" y="117.667" width="216" height="91.3333"/>
+  <object id="5" gid="2" x="433" y="100" width="108.333" height="58.3333"/>
+  <object id="6" gid="4" x="547" y="175.333" width="214" height="133.333"/>
+  <object id="7" gid="3" x="137.333" y="280.667" width="168" height="87.6667"/>
+  <object id="10" gid="2" x="671.667" y="384" width="123" height="41"/>
+  <object id="11" gid="2" x="295.667" y="381.333" width="123" height="41"/>
+ </objectgroup>
+ <objectgroup id="5" name="Mountains">
+  <object id="8" gid="6" x="0" y="800" width="800" height="986.667"/>
+ </objectgroup>
+ <objectgroup id="6" name="grace">
+  <object id="12" gid="5" x="0" y="800" width="800" height="1000"/>
+ </objectgroup>
+ <objectgroup id="7" name="platformes">
+  <object id="13" name="platform" gid="53" x="161.333" y="684" width="16" height="16"/>
+  <object id="14" name="platform" gid="53" x="176" y="684" width="16" height="16"/>
+  <object id="18" name="platform" gid="24" x="147.455" y="684" width="16" height="16"/>
+  <object id="19" name="platform" gid="60" x="191.273" y="684" width="16" height="16"/>
+  <object id="20" gid="28" x="175.273" y="699.455" width="16" height="16"/>
+  <object id="21" gid="28" x="160.182" y="700" width="16" height="16"/>
+  <object id="22" gid="45" x="147.273" y="700" width="16" height="16"/>
+  <object id="24" gid="44" x="188" y="698.545" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="9" name="player">
+  <object id="36" name="adventurer-idle-2-00-right" x="167.205" y="614.682">
+   <polygon points="0,0 6.36364,0.181818 6.36364,7.81818 10.7273,11.8182 10.7273,16.1818 7.81818,16.1818 9.81818,26.3636 6.36364,24.5455 2.72727,18.9091 -3.63636,26.7273 -6,26.5455 -5.09091,20.7273 -10.7273,26.7273 -12.7273,26.7273 -12.5455,24.5455 -7.81818,19.2727 -8,15.6364 -7.27273,12.3636 -1.63636,5.81818 -1.45455,0.909091"/>
+  </object>
+  <object id="38" name="test" x="202.25" y="652.5">
+   <polygon points="0,0 -3.25,6.5 2.25,6.5 5,2.25"/>
+  </object>
+ </objectgroup>
+</map>

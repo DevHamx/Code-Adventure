@@ -1,0 +1,265 @@
+@startuml
+
+title __UTIL's Class Diagram__\n
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class Assets {
+          {static} + TAG : String
+          {static} + instance : Assets
+          - assetManager : AssetManager
+          + adventureAtlas : TextureAtlas
+          + itemsAtlas : TextureAtlas
+          + enemyAtlas : TextureAtlas
+          - Assets()
+          + init()
+          + error()
+          + dispose()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class UiAssests {
+          + buttonClick : Sound
+          + quizSkin : Skin
+          + gameplaySkin : Skin
+          + UiAssests()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class GameAssests {
+          + backgroundMusicNature : Music
+          + GameAssests()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class ItemAssests {
+          + path : TextureRegion
+          + pathEnd : TextureRegion
+          + key : TextureRegion
+          + ItemAssests()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class EnemyAssests {
+          + standingAnimation : Animation
+          + deadAnimation : Animation
+          + death : Sound
+          + DeathRegion1 : AtlasRegion
+          + EnemyAssests()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class AdventurerAssets {
+          + standingRightAnimation : Animation
+          + standingLeftAnimation : Animation
+          + walkingLeftAnimation : Animation
+          + walkingRightAnimation : Animation
+          + fallingRightAnimation : Animation
+          + fallingLeftAnimation : Animation
+          + groundAttack1RightAnimation : Animation
+          + airAttack1RightAnimation : Animation
+          + groundAttack1LeftAnimation : Animation
+          + airAttack1LeftAnimation : Animation
+          + runningInGrass : Sound
+          + swordSwing : Sound
+          + swordHit : Sound
+          + landingOnTheGround : Sound
+          + hop : Sound
+          + adventurerDeath : Sound
+          + groundAttack1Size : short
+          + airAttack1Size : short
+          + AdventurerAssets()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class OnscreenControlsAssets {
+          + moveRight : AtlasRegion
+          + moveLeft : AtlasRegion
+          + jump : AtlasRegion
+          + OnscreenControlsAssets()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class ChaseCam {
+          + camera : Camera
+          + mapSize : Vector2
+          + ChaseCam()
+          + update()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class Constants {
+          {static} + HUD_MARGIN : float
+          {static} + WORLD_SIZE : float
+          {static} + GRAVITY : float
+          {static} + KILL_PLANE : float
+          {static} + PLATFORM_HEIGHT : float
+          {static} + TILE_SIZE : float
+          {static} + ADVENTURER_MOVE_PER_COUNT : float
+          {static} + ADVENTURER_MOVE_SPEED : float
+          {static} + ADVENTURER_MAX_JUMP_DURATION : float
+          {static} + WALKING_ANIMATION_DURATION : float
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class Enums {
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      enum AttackState {
+        NOT_ATTACKING
+        ATTACKING
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      enum Direction {
+        LEFT
+        RIGHT
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      enum JumpState {
+        JUMPING
+        FALLING
+        GROUNDED
+        RECOILING
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      enum WalkState {
+        NOT_WALKING
+        WALKING
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class LevelLoader {
+          {static} ~ level : Level
+          {static} + camera : OrthographicCamera
+          {static} ~ tiledMap : TiledMap
+          {static} ~ tiledMapRenderer : TiledMapRenderer
+          {static} ~ layer : MapLayer
+          {static} ~ object : MapObject
+          {static} ~ objects : MapObjects
+          {static} ~ mapSize : Vector2
+          {static} + load()
+          {static} + render()
+          {static} + getMapSize()
+          {static} + isPolygon()
+          {static} + loadPlatforms()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class TextureMapObjectRenderer {
+          + TextureMapObjectRenderer()
+          + TextureMapObjectRenderer()
+          + TextureMapObjectRenderer()
+          + TextureMapObjectRenderer()
+          + renderObject()
+      }
+    }
+  }
+  
+
+  package com.code.adventure.game {
+    package com.code.adventure.game.util {
+      class Utils {
+          {static} + firstEnemyPosition : Vector2
+          {static} + drawTextureRegion()
+          {static} + drawTextureRegion()
+          {static} + drawTextureRegion()
+          {static} + secondsSince()
+      }
+    }
+  }
+  
+
+  Assets -up-|> Disposable
+  Assets -up-|> AssetErrorListener
+  Assets o-- AdventurerAssets : adventurerAssets
+  Assets o-- GameAssests : gameAssests
+  Assets o-- UiAssests : uiAssests
+  Assets o-- ItemAssests : itemAssests
+  Assets o-- OnscreenControlsAssets : onscreenControlsAssets
+  Assets o-- EnemyAssests : enemyAssests
+  Assets +-down- UiAssests
+  Assets +-down- GameAssests
+  Assets +-down- ItemAssests
+  Assets +-down- EnemyAssests
+  Assets +-down- AdventurerAssets
+  Assets +-down- OnscreenControlsAssets
+  ChaseCam o-- Adventurer : target
+  Enums +-down- AttackState
+  Enums +-down- Direction
+  Enums +-down- JumpState
+  Enums +-down- WalkState
+  TextureMapObjectRenderer -up-|> OrthogonalTiledMapRenderer
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+  <item>
+    <question>
+        Considérez le code suivant :
+
+        for(int i = 0 ; i &lt; 3 ; i += 1) {
+        println("bonjour");
+        }
+        println("au revoir");
+
+        Que va-t-il afficher ?
+    </question>
+    <answer correct="1">
+        bonjour
+        bonjour
+        bonjour
+        au revoir
+    </answer>
+    <answer>
+        bonjour
+        au revoir
+        bonjour
+        au revoir
+        bonjour
+        au revoir
+    </answer>
+    <answer>
+        bonjour
+        au revoir
+    </answer>
+
+  </item>
+  <item>
+    <question>
+        Considérez le code suivant :
+
+        int i = 0;
+        for(int i = 5;i &lt; 5 ; i+=1) {
+        println("bonjour");
+        }
+
+        Que va-t-il afficher ?
+    </question>
+    <answer>
+        Il va afficher une erreur !
+    </answer>
+    <answer>
+        Il va afficher la ligne :
+        bonjour
+    </answer>
+    <answer correct="1">
+        Il ne va rien afficher.
+    </answer>
+  </item>
+  <item>
+    <question>
+        Considérez le code suivant :
+
+        int x = 3;
+        for(int i=3 ; i&lt;=8 ; i+=2) {
+        x += 1;
+        }
+        println(x);
+
+        Que va-t-il afficher ?
+    </question>
+    <answer>
+    6
+    </answer>
+    <answer>
+    5
+    </answer>
+    <answer correct="1">
+    7
+    </answer>
+    <answer>
+    8
+    </answer>
+  </item>
+
+</quiz>

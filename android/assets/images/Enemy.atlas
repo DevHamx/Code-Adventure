@@ -1,0 +1,230 @@
+
+Enemy.png
+size: 1024,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Skeleton_Dead01
+  rotate: false
+  xy: 2, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead02
+  rotate: false
+  xy: 37, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead03
+  rotate: false
+  xy: 72, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead04
+  rotate: false
+  xy: 72, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead05
+  rotate: false
+  xy: 72, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead06
+  rotate: false
+  xy: 107, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead07
+  rotate: false
+  xy: 142, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead08
+  rotate: false
+  xy: 177, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead09
+  rotate: false
+  xy: 212, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead10
+  rotate: false
+  xy: 247, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead11
+  rotate: false
+  xy: 282, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead12
+  rotate: false
+  xy: 317, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead13
+  rotate: false
+  xy: 352, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Dead14
+  rotate: false
+  xy: 387, 2
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Hit01
+  rotate: false
+  xy: 422, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Hit07
+  rotate: false
+  xy: 422, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Hit02
+  rotate: false
+  xy: 454, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Hit03
+  rotate: false
+  xy: 486, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Hit04
+  rotate: false
+  xy: 518, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Hit05
+  rotate: false
+  xy: 550, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Hit06
+  rotate: false
+  xy: 582, 2
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle02
+  rotate: false
+  xy: 640, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle03
+  rotate: false
+  xy: 666, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle04
+  rotate: false
+  xy: 692, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle05
+  rotate: false
+  xy: 718, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle06
+  rotate: false
+  xy: 744, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle07
+  rotate: false
+  xy: 770, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle08
+  rotate: false
+  xy: 796, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle09
+  rotate: false
+  xy: 822, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle10
+  rotate: false
+  xy: 614, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle01
+  rotate: false
+  xy: 614, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+Skeleton_Idle11
+  rotate: false
+  xy: 614, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1

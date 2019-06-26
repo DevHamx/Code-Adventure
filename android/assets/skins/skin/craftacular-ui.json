@@ -1,0 +1,153 @@
+{
+BitmapFont: {
+	bold: {
+		file: font-bold-export.fnt
+	}
+	font: {
+		file: font-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+Color: {
+	black: {
+		hex: 000000ff
+	}
+	gray: {
+		hex: 8c8c8cff
+	}
+	green: {
+		hex: 09c600ff
+	}
+	white: {
+		hex: ffffffff
+	}
+}
+TintedDrawable: {
+	gray: {
+		name: white
+		color: {
+			hex: bbbbbbff
+		}
+	}
+}
+ButtonStyle: {
+	default: {
+		up: button
+		over: button-hover
+		disabled: button-disabled
+	}
+}
+ImageButtonStyle: {
+	default: {
+		up: button
+		over: button-hover
+		disabled: button-disabled
+	}
+}
+ImageTextButtonStyle: {
+	default: {
+		font: font
+		up: button
+		over: button-hover
+		disabled: button-disabled
+	}
+}
+LabelStyle: {
+	default: {
+		font: font
+	}
+	dim: {
+		font: font
+		fontColor: gray
+	}
+	bold: {
+		font: bold
+		//background: underline
+	}
+	title: {
+		font: title
+	}
+	xp: {
+		font: bold
+		fontColor: green
+	}
+}
+ProgressBarStyle: {
+	default-horizontal: {
+		background: slider
+		knobBefore: slider-knob
+	}
+	default-vertical: {
+		background: slider
+		knob: slider-knob
+	}
+	hunger: {
+		background: meat-bg
+		knobAfter: meat
+	}
+	health: {
+		background: heart-bg
+		knobBefore: heart
+	}
+	xp: {
+		background: xp-bg
+		knobBefore: xp
+	}
+	armor: {
+		background: armor-bg
+		knobBefore: armor
+	}
+}
+ScrollPaneStyle: {
+	default: {
+		background: scroll-bg
+		hScroll: scroll-horizontal
+		hScrollKnob: scroll-knob-horizontal
+		vScroll: scroll-vertical
+		vScrollKnob: scroll-knob-vertical
+	}
+}
+SliderStyle: {
+	default-horizontal: {
+		background: slider
+		knob: slider-knob
+	}
+	default-vertical: {
+		background: slider
+		knob: slider-knob
+	}
+}
+TextButtonStyle: {
+	default: {
+		font: font
+		up: button
+		over: button-hover
+		disabled: button-disabled
+	}
+}
+TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: white
+		disabledFontColor: white
+		background: text-field
+		disabledBackground: text-field-disabled
+		cursor: cursor
+		selection: gray
+	}
+}
+TextTooltipStyle: {
+	default: {
+		label: default
+		background: tooltip
+	}
+}
+WindowStyle: {
+	default: {
+		background: window
+		titleFont: font
+	}
+}
+}

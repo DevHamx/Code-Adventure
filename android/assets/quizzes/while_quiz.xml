@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<quiz>
+  <item>
+    <question>
+        Considérez le code suivant :
+
+        int i = ?;
+        while(i &lt;= 5) {
+          println("bonjour");
+          i+= 1;
+        }
+
+        Pour afficher 3 fois bonjour, à quelle valeur la variable i doit etre initialisée ?
+    </question>
+    <answer>
+        1
+    </answer>
+    <answer>
+        2
+    </answer>
+    <answer correct="1">
+        3
+    </answer>
+
+  </item>
+  <item>
+    <question>
+        Considérez le code suivant :
+
+        for(int i = 0 ; i &lt; 4 ; i+=1) {
+          println(i + "fois");
+        }
+
+        Comment le réecrir en while() ?
+    </question>
+    <answer>
+        int i = 0;
+        while(i &lt;= 4){
+          println(i + "fois");
+          i += 1;
+        }
+    </answer>
+    <answer correct="1">
+        int i = 2;
+        while(i &lt;= 5){
+          println(i + "fois");
+          i += 1;
+        }
+    </answer>
+    <answer>
+        int i = 0;
+        while(i &lt;= 3){
+          println(i + "fois");
+        }
+    </answer>
+  </item>
+  <item>
+    <question>
+        On veut afficher 4 fois le mot "ligne" en decrementant la variable i.
+
+        Choisissez la bonne réponse.
+    </question>
+    <answer correct="1">
+    int i = 10;
+    while(i >= 7){
+      println("ligne");
+      i -= 1;
+    }
+    </answer>
+    <answer>
+    int i = 5;
+    while(i >= 0){
+      println("ligne");
+      i -= 1;
+    }
+    </answer>
+    <answer>
+    int i = 7;
+    while(i > 4){
+      println("ligne");
+      i -= 1;
+    }
+    </answer>
+  </item>
+
+</quiz>

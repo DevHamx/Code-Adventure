@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+  <item>
+    <question>
+        Dans lequel des cas suivants est-il préférable d'utiliser DO WHILE ?
+    </question>
+    <answer>
+        Il n'y a pas de différence entre FOR, WHILE et DO WHILE.
+    </answer>
+    <answer correct="1">
+        Pour s'assurer que la requête qu'il faut itérer soit lancer au moins une fois.
+    </answer>
+    <answer>
+        Je ne sais pas.
+    </answer>
+    <answer>
+        C'est ma boucle préférée !
+    </answer>
+
+  </item>
+  <item>
+    <question>
+        Considérez le code suivant :
+
+        int i = 1;
+        do{
+          i += 1;
+          println("Salut " + i);
+        }while(i &lt; 3);
+
+        Que va-t-il afficher ?
+    </question>
+    <answer>
+        Salut 1
+        Salut 2
+        Salut 3
+    </answer>
+    <answer correct="1">
+        Salut 2
+        Salut 3
+    </answer>
+    <answer>
+        Salut 2
+    </answer>
+  </item>
+  <item>
+    <question>
+        On veut afficher tous les nombres inférieures ou égales (zero inclut) à 8, en décrementant la variable i.
+
+        Choisissez la bonne réponse.
+    </question>
+    <answer>
+    int i = 10;
+    do{
+      i -= 2;
+      println(i);
+    }while(i > 0);
+    </answer>
+    <answer correct="1">
+    int i = 8;
+    do{
+      println(i);
+      i -= 1;
+    }while(i >= 0);
+    </answer>
+    <answer>
+      int i = 8;
+      do{
+        println(i);
+        i -= 1;
+      }while(i > 0);
+    </answer>
+    <answer>
+      int i = 8;
+      do{
+        i -= 1;
+        println(i);
+      }while(i > 0);
+    </answer>
+  </item>
+
+</quiz>
